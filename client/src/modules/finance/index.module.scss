@@ -1,0 +1,46 @@
+@import '/src/styles/indents.scss';
+@import '/src/styles/colors.scss';
+
+.wrapper {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto $indent-extra-big auto;
+    box-shadow: 0px 0 10px rgba($grey-700, .26);
+    
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 600px;
+    width: 90%;
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    &__ticker {
+        width: 20%;
+        box-shadow: 0px 0 10px rgba($grey-700, .26);
+        border-radius: 12px;
+        background-color: red;
+    }
+    &__name {
+        width: 30%;
+    }
+    &__price {
+        width: 30%;
+    }
+    &__change {
+        width: 20%;
+    }
+    &__change_percent {
+        width: 20%;
+    }
+}
