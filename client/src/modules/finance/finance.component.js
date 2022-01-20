@@ -20,7 +20,6 @@ export function Finance () {
                 <ul className={styles.lists}>
                     {quotes.map((quote, index) => {
                         return (
-
                             <li key={index} className={styles.list}>
                                 <div className={styles.list__item}>
                                     <div className={styles.list__ticker}>{quote.ticker}</div>
@@ -33,12 +32,9 @@ export function Finance () {
                                 </div>   
                             </li>
                         )
-                    })
-                   
+                    })                  
                     }
                 </ul>
             </div>
-        )
-
-    
+        )   
 }

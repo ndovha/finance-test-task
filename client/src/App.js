@@ -1,4 +1,6 @@
+import React from 'react';
 import { Finance } from "./modules/finance/finance.component";
+
 function App() {
   return (
     <div className="App">
